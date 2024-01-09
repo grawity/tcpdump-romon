@@ -215,5 +215,8 @@
 #ifndef	ETHERTYPE_ARISTA
 #define	ETHERTYPE_ARISTA        0xd28b /*  Arista Networks vendor specific EtherType */
 #endif
+#ifndef	ETHERTYPE_ROMON
+#define	ETHERTYPE_ROMON		0x88bf /* Mikrotik RouterOS management network */
+#endif
 
 extern const struct tok ethertype_values[];
