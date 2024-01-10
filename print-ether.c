@@ -653,6 +653,10 @@ ethertype_print(netdissect_options *ndo,
 	case ETHERTYPE_PTP:
 		ptp_print(ndo, p, length);
 		return (1);
+	
+	case ETHERTYPE_ROMON:
+		romon_print(ndo, p, length);
+		return (1);
 
 	case ETHERTYPE_LAT:
 	case ETHERTYPE_SCA:

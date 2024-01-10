@@ -1193,6 +1193,7 @@ set(NETDISSECT_SOURCE_LIST_C
     print-resp.c
     print-rip.c
     print-ripng.c
+    print-romon.c
     print-rpki-rtr.c
     print-rsvp.c
     print-rt6.c
